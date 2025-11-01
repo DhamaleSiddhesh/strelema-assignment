@@ -11,11 +11,11 @@ const LoginPage = () => {
 
   const navigate = useNavigate();
 
-//   const isLoggedIn = localStorage.getItem("isLoggedIn");
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
 
-//   if (isLoggedIn == 'true') {
-//     return <Navigate to="/dashboard" replace />;
-//   }
+  if (isLoggedIn == 'true') {
+    return <Navigate to="/dashboard" replace />;
+  }
 
   const handleSubmit = async (e) => {
     console.log("triggered");
