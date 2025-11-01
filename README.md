@@ -23,6 +23,9 @@ npm start
 
 The app will run on http://localhost:5173/
 
+## DEPLOYED LINK OF THE PROJECT 
+[link](https://strelema-assignment-orcin.vercel.app/)
+
 ---
 
 ## Pages & URLs
